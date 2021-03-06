@@ -19,10 +19,10 @@ namespace GameProjectDemo
             Console.WriteLine();
             Console.WriteLine("<<<<<<<<<<Oyuncular>>>>>>>>>>");
             PlayerManager player1 = new PlayerManager(new MernisServiceAdapter());
-            player1.Add(new Entities.Player { DateOfBirth = new DateTime(2001, 5, 2), FirstName = "Rana", LastName = "Yalçın", NationalityId = "10651172216" });
+            player1.Add(new Entities.Player { DateOfBirth = new DateTime(2001, 4, 1), FirstName = "Mary", LastName = "Blood", NationalityId = "12345678" });
 
             PlayerManager player2 = new PlayerManager(new MernisServiceAdapter());
-            player2.Add(new Entities.Player { DateOfBirth = new DateTime(1995, 9, 13), FirstName = " Ali Yavuz", LastName = "Yalçın", NationalityId = "14131053132" });
+            player2.Add(new Entities.Player { DateOfBirth = new DateTime(1993, 9, 9), FirstName = "Frank", LastName = "Underwood", NationalityId = "12345678" });
             Console.WriteLine();
             Console.WriteLine("<<<<<<<<<<Oyunlar>>>>>>>>>");
             GameProduct game1 = new GameProduct() { GameName = "Total War", GameType = "Strateji", GamePrice = 70 };
